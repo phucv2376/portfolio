@@ -107,7 +107,7 @@ body {
 
 .exp > div {
   margin: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
@@ -197,7 +197,7 @@ body {
   position: relative;
 }
 
-.extr {
+.extr, .skills {
   margin: 20px;
   font-size: 1.5em;
 }
@@ -205,4 +205,38 @@ body {
 .edu-desc {
   margin: 15px;
   font-size: 1.5em;
+}
+
+.skillnproj {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  scroll-snap-align: center;
+  margin-bottom: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacts {
+  min-height: 95vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  scroll-snap-align: center;
+}
+
+.contacts > p {
+  font-size: 1.5em;
+}
+
+.center {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center > div {
+  font-size: 2em;
+  color: var(--c3);
 }
